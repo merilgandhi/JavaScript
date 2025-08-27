@@ -1,0 +1,81 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  background: linear-gradient(120deg, #8e9eab 0%, #eef2f3 100%);
+  min-height: 100vh;
+  margin: 0;
+}
+
+a {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  color: #443fc0;
+  text-decoration: underline;
+  font-size: 1.15em;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #1b1464;
+}
+
+span {
+  display: block;
+}
+
+.canvas {
+  margin: 90px auto 60px;
+  width: 90%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 38px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #252525;
+  letter-spacing: 1.2px;
+  text-shadow: 0 2px 8px rgba(90,100,190,0.08);
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid #ececec 4px;
+  display: inline-block;
+  margin: 0 13px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(34,34,34,0.14);
+  transition: border-color 0.3s, box-shadow 0.35s, transform 0.22s;
+  cursor: pointer;
+  position: relative;
+}
+.button:hover {
+  border-color: #443fc0;
+  box-shadow: 0 10px 30px rgba(20,30,90,0.17);
+  transform: scale(1.06);
+}
+
+#grey {
+  background: linear-gradient(130deg, #909090 60%, #b5b5b5 100%);
+}
+#white {
+  background: linear-gradient(120deg, #fff 60%, #f0f0f0 100%);
+}
+#blue {
+  background: linear-gradient(120deg, #142adb 60%, #5f6fed 100%);
+}
+#yellow {
+  background: linear-gradient(125deg, #fff840 65%, #ffd700 100%);
+}
+
+.info {
+  font-size: 1.5em;
+  color: #252525;
+  font-weight: 500;
+  margin-top: 35px;
+  text-shadow: 0 1px 8px rgba(90,100,190,0.04);
+}
