@@ -33,10 +33,6 @@ body{
   background: var(--panel);
   border: 1px solid var(--panel-border);
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  padding: 28px 24px;
-  box-shadow: var(--shadow);
 }
 
 #wrapper h1{
@@ -85,7 +81,7 @@ body{
   transform: translateY(-1px);
 }
 
-#submit{
+#subt{
   height: 52px;
   padding: 0 18px;
   border-radius: 12px;

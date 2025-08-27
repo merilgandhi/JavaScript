@@ -12,15 +12,16 @@
         <p>try to guess a number between 1-100</p>
         <p>You got 10 attempts to guess a write number</p>
     </br>
-    <form action="post" class="form">
+    <form class="form">
         <label for="guessfield" id="guess">Guess a number</label>
-        <input type="text" id="guessfield"
+        <input type="text" id="guessField"
         class="guessfield">
-        <input type="submit" id="submit" value="Submit Guess">
+        <input type="submit" id="subt" value="Submit Guess">
     </form>
-    <div class="result">
+    <div class="resultParas">
         <p>Previour Guesses: <span class="guesses"></span></p>
-        <p>Guesses Remaining: <span class="lastresult">10</span></p>
+        <p>Guesses Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
     </div>
     </div>
     <script src="guessnum.js"></script>
